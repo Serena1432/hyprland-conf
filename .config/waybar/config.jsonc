@@ -1,0 +1,100 @@
+{
+  "height": 40,
+  "margin": 5,
+  "border-radius": 10,
+  "layer": "top",
+  "exclusive": true,
+  "position": "top",
+  "modules-left": ["hyprland/workspaces", "hyprland/window"],
+  "modules-center": [],
+  "modules-right": [
+    "tray",
+    "cpu",
+    "memory",
+    "custom/gpu",
+    "network#speed",
+    "pulseaudio",
+    "battery",
+    // "custom/user",
+    "clock",
+    "custom/power"
+  ],
+  "hyprland/workspaces": {
+    "on-click": "hyprctl dispatch workspace e+1",
+    "on-scroll-up": "hyprctl dispatch workspace e-1",
+    "on-scroll-down": "hyprctl dispatch workspace e+1",
+    "on-double-click": "hyprctl dispatch workspace $(($(hyprctl activeworkspace | grep 'ID' | awk 'NR==1 {print $3}') + 1))"
+  },
+  "hyprland/window": {
+    "on-click": "hyprctl dispatch movetoworkspace special"
+  },
+  "tray": {},
+  "cpu": {
+    "format-critical":  "<span color='#c20821'><b>\uF201 {usage}%</b></span>",
+    "format-high":      "<span color='#e03c52'>\uF201 {usage}%</span>",
+    "format-medium":    "<span color='#85c600'>\uF201 {usage}%</span>",
+    "format-low":       "<span color='grey'>\uF201 {usage}%</span>",
+    "tooltip": false,
+    "interval": 1,
+    "states": {
+      "critical": 80,
+      "high": 50,
+      "medium": 5,
+      "low": 0,
+    },
+    "on-click": "psensor"
+  },
+  "memory": {
+    "format": " {}%",
+    "tooltip": false,
+    "interval": 1,
+    "on-click": "kitty htop"
+  },
+  "custom/gpu": {
+    "format": " {}",
+    "exec": "gpu-usage-waybar",
+    "return-type": "json",
+    "on-click": "kitty nvtop",
+  },
+  "network#speed": {
+    "interval": 1,
+    "format": "{ifname}",
+    "format-wifi": " {bandwidthDownBytes}  {bandwidthUpBytes}",
+    "format-ethernet": " {bandwidthDownBytes}  {bandwidthUpBytes}",
+    "format-disconnected": "󰌙",
+    "tooltip-format": "{ipaddr}",
+    "format-linked": "󰈁 {ifname} (No IP)",
+    "tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
+    "tooltip-format-ethernet": "{ifname} 󰌘",
+    "tooltip-format-disconnected": "󰌙 Disconnected",
+    "max-length": 30,
+    "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"]
+  },
+  "pulseaudio": {
+    "format": " {volume}%",
+    "tooltip": false,
+    "on-click": "pavucontrol"
+  },
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "tooltip": false,
+    "on-click": "gnome-power-statistics",
+    "format-icons": ["", "", "", "", ""],
+    "format-charging": " {capacity}%"
+  },
+  "custom/user": {
+    "format": " {}",
+    "exec": "sh -c 'whoami'",
+    "tooltip": false,
+  },
+  "clock": {
+    "format": " {:%a %d %b %H:%M:%S}",
+    "tooltip": false,
+    "interval": 1
+  },
+  "custom/power": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "wlogout"
+  }
+}

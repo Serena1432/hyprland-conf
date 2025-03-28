@@ -1,0 +1,49 @@
+/* Waybar style */
+* {
+    font-family: "Intel One Mono";
+    font-size: 14px;
+    color: #ffffff;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 8px;
+    padding: 8px;
+}
+
+window#waybar * {
+    margin: 0 8px;
+}
+
+#pulseaudio {
+    color: #00d2ff;
+}
+
+#battery {
+    color: #f7f8c7;
+}
+
+#custom-user {
+    color: #84bf7a;
+}
+
+#cpu {
+    color: #00C7FD;
+}
+
+#memory {
+    color: #00ADB2;
+}
+
+#custom-gpu {
+    color: #76B900;
+}
+
+#network {
+    color: #08A1EC;
+}
+
+#window {
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+configuration {
+    font: "Intel One Mono 32pt";
+    blur: { enabled: true; passes: 1; };
+}
+
+@theme "*/share/rofi/themes/dark.rasi"
+
+window {
+    transparency: "real";
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+inputbar {
+    height: 80px;
+    border-radius: 10px;
+    font: "Intel One Mono 32pt";
+}
+
+listview {
+    spacing: 8px;
+}
+
+entry {
+    height: 48px;
+    font: "Intel One Mono 24pt";
+}
+
+element {
+    children: [icon, text];
+    padding: 8px;
+}
+
+icon {
+    size: 32px;
+    margin: 8px;
+}
+
+text {
+    font: "Intel One Mono 24pt";
+    margin-left: 12px;
+}
