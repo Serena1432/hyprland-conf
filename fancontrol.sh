@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "----------------------------------------------------"
-echo "Harpae's Acer Nitro 5 Fan Control for Linux"
+echo "Acer Nitro Fan Control for Linux"
 echo "----------------------------------------------------"
 echo "[1] Auto Set Speed"
 echo "[2] Maximum Speed"
