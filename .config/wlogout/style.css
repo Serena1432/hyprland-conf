@@ -1,0 +1,52 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+}
+
+button {
+	font-family: "Intel One Mono";
+	font-size: 18pt;
+    border-radius: 10px;
+	text-decoration-color: #FFFFFF;
+    color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	border: 0;
+	background-repeat: no-repeat;
+	background-position: center 35%;
+	background-size: 25%;
+}
+
+button:focus, button:active, button:hover {
+	background-color: #8eaa81;
+	outline-style: none;
+}
+
+#lock {
+    background-image: image(url("./icons/lock.png"), url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("./icons/logout.png"), url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("./icons/suspend.png"), url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+    background-image: image(url("./icons/hibernate.png"), url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+    background-image: image(url("./icons/shutdown.png"), url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("./icons/reboot.png"), url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+}
