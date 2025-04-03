@@ -12,7 +12,7 @@
 }
 {
     "label" : "logout",
-    "action" : "loginctl kill-user $(whoami)",
+    "action" : "wayland-logout",
     "text" : "Logout",
     "keybind" : "e"
 }

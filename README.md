@@ -47,6 +47,7 @@ I used all of these things for my Hyprland configuration:
 * `nvtop` (graphics statistics)
 * `htop` (system statistics)
 * `psensor` (GUI sensor statistics)
+* `wayland-logout` (logout helper)
 
 ## Installation
 
