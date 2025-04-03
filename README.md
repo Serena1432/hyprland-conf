@@ -4,6 +4,8 @@
 
 ![2](screenshots/2.png)
 
+![3](screenshots/3.png)
+
 This is the backup files for my Hyprland configuration. Of course it's here for preservation purposes only, but if anyone is willing to use or modify them, you can do it because why not?
 
 ## Computer specifications
