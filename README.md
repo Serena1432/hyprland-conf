@@ -42,7 +42,7 @@ I used all of these things for my Hyprland configuration:
 * `cliphist` (clipboard history)
 * `copyq` (clipboard manager)
 * `playerctl` (media player control)
-* `thunar` (file manager)
+* `nautilus` (file manager)
 * `wofi-emoji` (emoji keyboard)
 * `grim` (screenshot)
 * `brightnessctl` (brightness control)
