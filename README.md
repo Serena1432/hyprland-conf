@@ -48,6 +48,7 @@ I used all of these things for my Hyprland configuration:
 * `htop` (system statistics)
 * `psensor` (GUI sensor statistics)
 * `wayland-logout` (logout helper)
+* `network-manager-applet` (NetworkManager applet)
 
 ## Installation
 
