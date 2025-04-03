@@ -5,8 +5,8 @@
   "layer": "top",
   "exclusive": true,
   "position": "top",
-  "modules-left": ["hyprland/workspaces", "hyprland/window"],
-  "modules-center": [],
+  "modules-left": ["clock", "hyprland/window"],
+  "modules-center": ["hyprland/workspaces"],
   "modules-right": [
     "tray",
     "cpu",
@@ -15,8 +15,7 @@
     "network#speed",
     "pulseaudio",
     "battery",
-    // "custom/user",
-    "clock",
+    //"custom/user",
     "custom/power"
   ],
   "hyprland/workspaces": {
