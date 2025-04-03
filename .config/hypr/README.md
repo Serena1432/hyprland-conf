@@ -10,6 +10,8 @@ Each preset folder will contain these files:
 * `lockscreen.png`: The lockscreen image file.
 * `wallpaper.png`: The wallpaper image file. An image with darker background/lower opacity is recommended.
 
+Due to licensing & copyright issues, I can't provide the exact wallpaper and lockscreen here, and you have to find it yourself.
+
 `.lockscreen.png_` and `.wallpaper.png_` is just a placeholder, you can safely delete these two files.
 
 ## Configuration
