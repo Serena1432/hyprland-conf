@@ -60,6 +60,17 @@ I mainly use `One UI Sans APP VF` (Samsung's new One UI font) and `Intel One Mon
 
 Due to licensing, I can't share the fonts here. You should find it yourself and put it to `~/.local/share/fonts`.
 
+## Changing color palette/wallpaper
+
+I've made changing color palette through Hyprland easier through presets.
+
+Due to each application having different configuration, you should refer to the `README.md` file of each respective application in the `.config` folder:
+
+* [hypr ecosystem](.config/hypr/README.md)
+* [mako](.config/mako/README.md)
+* [wlogout](.config/wlogout/README.md)
+* [wofi](.config/wofi/README.md)
+
 ## About `fancontrol.sh`
 
 That is just a small script I used for controlling the laptop fan more easily, and bind it to the NitroSense button.

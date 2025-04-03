@@ -31,7 +31,7 @@ window {
     border-radius: 5px;
     padding: 20px;
     height: 960px;
-    border: 1px solid rgba(92, 92, 141, 0.4);
+    border: 1px solid rgba(142, 170, 129, 0.4);
 }
 
 #scroll {
@@ -50,7 +50,7 @@ window {
 }
 
 #entry:selected {
-    background-color: #989bcc;
+    background-color: #8eaa81;
     color: #282c34;
     border: none;
 }
