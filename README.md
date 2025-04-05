@@ -27,6 +27,7 @@ This is the backup files for my Hyprland configuration. Of course it's here for 
 I used all of these things for my Hyprland configuration:
 
 * `hyprpaper` (wallpaper)<br>`~/.config/hypr/hyprpaper.conf`
+* `hypridle` (idle daemon)<br>`~/.config/hypr/hypridle.conf`
 * `hyprlock` (lockscreen)<br>`~/.config/hypr/hyprlock.conf`
 * `kitty` (terminal)<br>`~/.config/kitty/kitty.conf`
 * `mako` (notification daemon)<br>`~/.config/mako/config`
