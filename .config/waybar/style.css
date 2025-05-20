@@ -40,6 +40,10 @@ window#waybar * {
     color: #76B900;
 }
 
+#custom-power {
+    font-family: "Font Awesome 6 Free Solid";
+}
+
 #network {
     color: #08A1EC;
 }

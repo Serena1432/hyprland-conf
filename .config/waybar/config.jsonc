@@ -92,7 +92,7 @@
     "interval": 1
   },
   "custom/power": {
-    "format": "",
+    "format": "\uf011",
     "tooltip": false,
     "on-click": "wlogout"
   }

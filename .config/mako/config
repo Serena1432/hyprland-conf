@@ -1,7 +1,7 @@
 default-timeout=7500
 font=Intel One Mono 11
 padding=20
-border-color=#989bcc99
+border-color=#8eaa8199
 background-color=#00000099
 border-radius=10
 width=400
