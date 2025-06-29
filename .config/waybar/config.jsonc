@@ -62,15 +62,15 @@
     "format-ethernet": " {bandwidthDownBytes}  {bandwidthUpBytes}",
     "format-disconnected": "󰌙",
     "tooltip-format": "{ipaddr}",
-    "format-linked": "󰈁 {ifname} (No IP)",
+    "format-linked": "󰈁  {ifname} (No IP)",
     "tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
-    "tooltip-format-ethernet": "{ifname} 󰌘",
-    "tooltip-format-disconnected": "󰌙 Disconnected",
+    "tooltip-format-ethernet": "{ifname}  󰌘",
+    "tooltip-format-disconnected": "󰌙  Disconnected",
     "max-length": 30,
     "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"]
   },
   "pulseaudio": {
-    "format": " {volume}%",
+    "format": "  {volume}%",
     "tooltip": false,
     "on-click": "pavucontrol"
   },
@@ -87,7 +87,7 @@
     "tooltip": false,
   },
   "clock": {
-    "format": " {:%a %d %b %H:%M:%S}",
+    "format": "  {:%a %d %b %H:%M:%S}",
     "tooltip": false,
     "interval": 1
   },
