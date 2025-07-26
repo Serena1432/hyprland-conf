@@ -1,3 +1,11 @@
+# ARCHIVED
+
+I don't use Hyprland anymore.
+
+Not gonna lie, it's a very good window manager, but tiling window system just doesn't fit me very much in terms of coding... So I switched back to labwc in some day of July, and finally KDE on July 27, 2025.
+
+Maybe on some day when I come back using Hyprland, I will unarchive this and continue contributing.
+
 # hyprland-conf
 
 ![1](screenshots/1.png)
